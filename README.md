@@ -44,3 +44,7 @@ Le temps d'évaluation est de 1 h 30. Les personnes bénéficiant d'un tiers tem
 
 ### ![Livrables à fournir](https://img.shields.io/badge/1.3-Livrables_à_fournir-6c181b?style=flat-square)
 - Une archive Akeeba Backup au format `.jpa`, à déposer sur la plateforme Moodle Communities.
+
+---
+
+## ![Notes](https://img.shields.io/badge/Notes-383d42?style=for-the-badge)
