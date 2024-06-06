@@ -73,6 +73,7 @@ L'action effectuée par Akeeba va être d'exporter les fichiers ainsi que la bas
 Cette procédure est réalisée de manière **transparente** par **Akeeba Backup**, à travers une série de requête SQL. Il est possible de réaliser cette tâche manuellement via la base de données, mais il est généralement plus simple de passer par une extension.
 
 À titre informatif, voici à quoi ressemble les requêtes SQL d'export d'un site Wordpress :
+
 ```sql
 UPDATE wp17_options SET option_value = REPLACE(option_value, 'http://spat.local', 'https://www.spat.fr');
 UPDATE wp17_postmeta SET meta_value = REPLACE(meta_value, 'http://spat.local', 'https://www.spat.fr');
@@ -80,12 +81,7 @@ UPDATE wp17_posts SET guid = REPLACE(guid, 'http://spat.local', 'https://www.spa
 UPDATE wp17_posts SET post_content = REPLACE(post_content, 'http://spat.local', 'https://www.spat.fr');
 UPDATE wp17_usermeta SET meta_value = REPLACE(meta_value, 'http://spat.local', 'https://www.spat.fr');
 ```
+
 Ces requêtes peuvent être différentes selon les extensions installées sur votre : WooCommerce, Yoast SEO... D'où le gain de productivité que nous permet Akeeba Backup.
 
 Pour cet exercice, vous n'aurez pas à importer un site, mais la procédure d'extraction de l'archive doit être réalisée via un outil complémentaire à Akeeba, nommée `kickstart.php`. Vous pouvez retrouver cet outil, ainsi que de la documentation, sur le site officiel d'Akeeba Backup : https://www.akeeba.com/download.html.
-
----
-
-## ![Notes](https://img.shields.io/badge/Notes-383d42?style=for-the-badge)
-
-### ![Notes de cours](https://img.shields.io/badge/29.5.24-Notes_de_cours-6c181b?style=flat-square)
