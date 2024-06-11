@@ -85,3 +85,8 @@ UPDATE wp17_usermeta SET meta_value = REPLACE(meta_value, 'http://spat.local', '
 Ces requêtes peuvent être différentes selon les extensions installées sur votre : WooCommerce, Yoast SEO... D'où le gain de productivité que nous permet Akeeba Backup.
 
 Pour cet exercice, vous n'aurez pas à importer un site, mais la procédure d'extraction de l'archive doit être réalisée via un outil complémentaire à Akeeba, nommée `kickstart.php`. Vous pouvez retrouver cet outil, ainsi que de la documentation, sur le site officiel d'Akeeba Backup : https://www.akeeba.com/download.html.
+
+---
+
+## ![Notes](https://img.shields.io/badge/Notes-383d42?style=for-the-badge)
+Vous trouverez les notes et commentaires en suivant sur [cette page](https://docs.google.com/spreadsheets/d/e/2PACX-1vRDRg_HoeUuI0Kqc5Ypu64-TVPx9YJjQ6HWJdfff7GDfhdcjSmlgzkT7mxix75gDCiEehcRzr4wBPYJ/pubhtml) !
